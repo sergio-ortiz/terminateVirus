@@ -15,3 +15,28 @@ a {
   color: #000;
   text-decoration: none;
 }
+
+/* Navbar */
+
+.navbar {
+  background: #333;
+  height: 4rem;
+}
+
+.main-menu {
+  list-style: none;
+}
+
+.menu-item {
+  margin-top: 1.3rem;
+  padding-left: 1rem;
+  float: left;
+}
+
+.menu-item a {
+  color: #ccc;
+}
+
+.menu-item a:hover {
+  color: #fff;
+}
