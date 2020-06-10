@@ -16,6 +16,12 @@ a {
   text-decoration: none;
 }
 
+/* Utils */
+
+.spacer {
+  height: 4rem;
+}
+
 /* Navbar */
 
 .navbar {
@@ -61,6 +67,15 @@ a {
 
 .menu-item a:hover {
   color: #fff;
+}
+
+/* Hero */
+
+.hero {
+  height: 60vh;
+  background-image: url("https://source.unsplash.com/rnr8D3FNUNY");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Media Queries */
