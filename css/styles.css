@@ -21,7 +21,9 @@ a {
 .navbar {
   background: #333;
   height: 4rem;
+  width: 100%;
   padding: 1rem;
+  position: fixed;
 }
 
 .branding {
@@ -67,7 +69,20 @@ a {
   .hamburger-menu {
     display: inline;
   }
+
   .main-menu {
+    float: right;
+    background: #333;
+    height: 100vh;
+    padding-top: 3rem;
+    margin-right: -2.5rem;
+    width: 45vw;
+    position: relative;
+    z-index: -1;
     display: none;
+  }
+
+  .menu-item {
+    float: none;
   }
 }
