@@ -31,6 +31,18 @@ a {
   font-size: 26px;
 }
 
+.hamburger-menu {
+  float: right;
+  outline: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  display: none;
+}
+
 .main-menu {
   list-style: none;
 }
@@ -47,4 +59,15 @@ a {
 
 .menu-item a:hover {
   color: #fff;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: inline;
+  }
+  .main-menu {
+    display: none;
+  }
 }
