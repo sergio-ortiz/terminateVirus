@@ -107,6 +107,10 @@ header {
   color: #fff;
 }
 
+#contact a {
+  color: #fff;
+}
+
 #info h2,
 #contact h2 {
   padding: 1rem;
