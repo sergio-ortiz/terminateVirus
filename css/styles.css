@@ -28,6 +28,12 @@ a {
   margin: auto;
 }
 
+/* header */
+
+header {
+  height: 100vh;
+}
+
 /* Navbar */
 
 .navbar {
@@ -83,6 +89,17 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#info {
+  height: 100vh;
+}
+
+#info h2 {
+  padding: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: underline;
 }
 
 /* Media Queries */
