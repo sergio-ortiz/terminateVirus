@@ -32,6 +32,10 @@ a {
   margin: auto;
 }
 
+.clearfix {
+  clear: both;
+}
+
 /* header */
 
 header {
@@ -107,16 +111,37 @@ header {
   color: #fff;
 }
 
-#contact a {
-  color: #fff;
-}
-
-#info h2,
-#contact h2 {
+#info h2 {
   padding: 1rem;
   text-align: center;
   font-weight: lighter;
   text-decoration: underline;
+}
+
+/* Contact */
+
+#contact h2 {
+  padding: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.numbers {
+  padding-top: 2rem;
+}
+
+.numbers * {
+  margin-top: 1rem;
+}
+
+.numbers p {
+  float: left;
+}
+
+.numbers a {
+  color: #fff;
+  text-decoration: underline;
+  float: right;
 }
 
 /* Media Queries */
