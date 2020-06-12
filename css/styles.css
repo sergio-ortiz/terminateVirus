@@ -135,11 +135,7 @@ header h2 {
 }
 
 .numbers {
-  padding-top: 2rem;
-}
-
-.numbers * {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .numbers p {
