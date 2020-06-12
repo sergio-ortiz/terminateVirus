@@ -119,6 +119,10 @@ header {
   text-decoration: underline;
 }
 
+#info p {
+  margin-top: 1rem;
+}
+
 /* Contact */
 
 #contact h2 {
