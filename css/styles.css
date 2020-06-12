@@ -39,7 +39,7 @@ a {
 /* header */
 
 header {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 header h2 {
@@ -106,7 +106,7 @@ header h2 {
 /* Info */
 
 #about {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about h2 {
@@ -123,7 +123,7 @@ header h2 {
 /* Contact */
 
 #contact {
-  height: 100vh;
+  min-height: 100vh;
   background: #000;
   color: #fff;
 }
