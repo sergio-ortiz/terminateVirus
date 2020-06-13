@@ -42,8 +42,7 @@ header {
   min-height: 100vh;
 }
 
-header h2 {
-  font-weight: lighter;
+header h1 {
   text-align: center;
 }
 
