@@ -60,7 +60,7 @@ header h1 {
   color: #fff;
   float: left;
   padding-right: 1rem;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .hamburger-menu {
@@ -72,7 +72,7 @@ header h1 {
   font-size: 22px;
   padding-top: 0.25rem;
   padding-right: 0.25rem;
-  margin-top: -2rem;
+  margin-top: -1.75rem;
   display: none;
 }
 
@@ -82,7 +82,7 @@ header h1 {
 
 .menu-item {
   padding-left: 1rem;
-  padding-top: 0.5rem;
+  padding-top: 0.25rem;
   float: left;
 }
 
