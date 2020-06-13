@@ -151,6 +151,13 @@ header h1 {
   float: right;
 }
 
+/* Copyright */
+
+.copyright {
+  padding-top: 65vh;
+  text-align: center;
+}
+
 /* Media Queries */
 
 @media (max-width: 768px) {
