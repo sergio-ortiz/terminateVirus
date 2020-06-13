@@ -59,6 +59,7 @@ header h1 {
 .branding {
   color: #fff;
   float: left;
+  padding-top: 0.15rem;
   padding-right: 1rem;
   font-size: 22px;
 }
@@ -82,7 +83,7 @@ header h1 {
 
 .menu-item {
   padding-left: 1rem;
-  padding-top: 0.25rem;
+  padding-top: 0.33rem;
   float: left;
 }
 
