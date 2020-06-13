@@ -103,10 +103,11 @@ header h2 {
   background-position: center;
 }
 
-/* Info */
+/* About */
 
 #about {
   min-height: 100vh;
+  padding-bottom: 2rem;
 }
 
 #about h2 {
