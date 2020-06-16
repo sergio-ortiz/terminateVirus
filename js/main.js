@@ -11,15 +11,17 @@ Object.values(menuItems).forEach((item) => {
 hamburgerButton.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-  if (toggle === "off") {
-    toggle = "on";
-    menu.style.display = "block";
-    return;
-  }
+  if (window.innerWidth < 769) {
+    if (toggle === "off") {
+      toggle = "on";
+      menu.style.display = "block";
+      return;
+    }
 
-  if (toggle === "on") {
-    toggle = "off";
-    menu.style.display = "none";
-    return;
+    if (toggle === "on") {
+      toggle = "off";
+      menu.style.display = "none";
+      return;
+    }
   }
 }
