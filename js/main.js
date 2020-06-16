@@ -1,7 +1,12 @@
 const hamburgerButton = document.getElementById("hamburger-btn");
 const menu = document.getElementById("menu");
+const menuItems = document.getElementsByClassName("menu-item");
 
 let toggle = "off";
+
+Object.values(menuItems).forEach((item) => {
+  item.addEventListener("click", toggleMenu);
+});
 
 hamburgerButton.addEventListener("click", toggleMenu);
 
