@@ -159,17 +159,14 @@ header h1 {
 }
 
 .numbers {
+  float: left;
+  color: #fff;
   padding-top: 1rem;
 }
 
-.numbers p {
-  float: left;
-}
-
 .numbers a {
-  color: #fff;
   text-decoration: underline;
-  float: right;
+  color: #fff;
 }
 
 .whatsapp-button {
