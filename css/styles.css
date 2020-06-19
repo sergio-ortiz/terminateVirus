@@ -172,8 +172,14 @@ header h1 {
   float: right;
 }
 
-.fa-whatsapp {
-  font-size: 1.75rem;
+.whatsapp-button {
+  margin-top: 3rem;
+  float: right;
+  background: #25d366;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 7px;
 }
 
 /* Copyright */
