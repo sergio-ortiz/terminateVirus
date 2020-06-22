@@ -144,6 +144,38 @@ header h1 {
   background-image: url("https://source.unsplash.com/l9ig6J4yM94");
 }
 
+/* prices */
+
+/* #prices {
+  background: #888;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+#prices * {
+  text-align: center;
+  margin: auto;
+}
+
+#prices h3 {
+  margin-top: -7rem;
+  margin-bottom: 1rem;
+  background: #888;
+  width: fit-content;
+  padding: 1rem;
+  font-weight: lighter;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#prices table * {
+  text-align: right;
+}
+
+#prices th {
+  width: 7rem;
+} */
+
 /* Contact */
 
 #contact {
