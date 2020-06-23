@@ -153,8 +153,14 @@ header h1 {
 
 #prices table {
   padding-top: 1rem;
-  width: fit-content;
+  width: 100%;
   margin: auto;
+}
+
+#prices table * {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem;
 }
 
 /* Contact */
