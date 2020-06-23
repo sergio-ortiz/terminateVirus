@@ -109,7 +109,6 @@ header h1 {
 
 #about {
   min-height: 100vh;
-  padding-bottom: 2rem;
 }
 
 #about h2 {
@@ -146,35 +145,11 @@ header h1 {
 
 /* prices */
 
-/* #prices {
-  background: #888;
-  color: #fff;
-  padding-bottom: 2rem;
-}
-
-#prices * {
+#prices h2 {
   text-align: center;
-  margin: auto;
-}
-
-#prices h3 {
-  margin-top: -7rem;
-  margin-bottom: 1rem;
-  background: #888;
-  width: fit-content;
-  padding: 1rem;
   font-weight: lighter;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  text-decoration: underline;
 }
-
-#prices table * {
-  text-align: right;
-}
-
-#prices th {
-  width: 7rem;
-} */
 
 /* Contact */
 
