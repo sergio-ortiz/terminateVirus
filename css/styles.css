@@ -149,6 +149,19 @@ header h1 {
   height: 100vh;
 }
 
+#prices button {
+  margin-top: 1rem;
+  background: none;
+  padding: 1rem;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: 1px solid #f4f4f4;
+  border-bottom: none;
+  font-size: 18px;
+  float: left;
+  outline: none;
+}
+
 #prices h2 {
   padding-top: 1rem;
   text-align: center;
