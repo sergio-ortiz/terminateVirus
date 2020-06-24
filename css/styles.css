@@ -145,7 +145,12 @@ header h1 {
 
 /* prices */
 
+#prices {
+  height: 100vh;
+}
+
 #prices h2 {
+  padding-top: 1rem;
   text-align: center;
   font-weight: lighter;
   text-decoration: underline;
