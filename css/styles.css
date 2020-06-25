@@ -151,13 +151,21 @@ header h1 {
 
 .tab {
   margin-top: 1rem;
-  border: 1px solid #f4f4f4;
-  border-bottom: none;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   padding: 1rem;
-  font-size: 18px;
   float: left;
+}
+
+.focused {
+  background: #fff;
+  border: 1px solid #f4f4f4;
+  border-bottom: none;
+}
+
+.unfocused {
+  border: none;
+  background: #f4f4f4;
 }
 
 #prices h2 {
@@ -253,5 +261,9 @@ header h1 {
   .high-touch2 {
     float: none;
     width: 100%;
+  }
+
+  .tab {
+    padding: 0.75rem;
   }
 }
