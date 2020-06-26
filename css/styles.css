@@ -151,20 +151,15 @@ header h1 {
 
 .tab {
   margin-top: 1rem;
+  border: 1px solid #f4f4f4;
+  border-bottom: none;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   padding: 1rem;
   float: left;
 }
 
-.focused {
-  background: #fff;
-  border: 1px solid #f4f4f4;
-  border-bottom: none;
-}
-
-.unfocused {
-  border: none;
+#subscriptions-tab {
   background: #f4f4f4;
 }
 
