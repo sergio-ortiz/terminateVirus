@@ -146,7 +146,9 @@ header h1 {
 /* prices */
 
 #prices {
+  overflow: auto;
   height: 100vh;
+  white-space: nowrap;
 }
 
 .tab {
@@ -179,6 +181,10 @@ header h1 {
   border-bottom: 1px solid #ccc;
   text-align: center;
   padding: 1rem;
+}
+
+#subscriptions-table {
+  display: none;
 }
 
 /* Contact */
