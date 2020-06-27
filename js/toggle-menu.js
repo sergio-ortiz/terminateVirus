@@ -1,8 +1,10 @@
 const menu = document.getElementById("menu");
+const hamburgerButton = document.getElementById("hamburger-btn");
+const menuItems = document.getElementsByClassName("menu-item");
 
 let toggle = "off";
 
-export default function toggleMenu() {
+function toggleMenu() {
   if (window.innerWidth < 769) {
     if (toggle === "off") {
       toggle = "on";
@@ -17,3 +19,11 @@ export default function toggleMenu() {
     }
   }
 }
+
+export default (function main() {
+  hamburgerButton.addEventListener("click", toggleMenu);
+
+  Object.values(menuItems).forEach((item) => {
+    item.addEventListener("click", toggleMenu);
+  });
+})();
