@@ -151,6 +151,13 @@ header h1 {
   white-space: nowrap;
 }
 
+#prices h2 {
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
 .tab {
   margin-top: 1rem;
   border: 1px solid #f4f4f4;
@@ -165,13 +172,6 @@ header h1 {
   background: #f4f4f4;
 }
 
-#prices h2 {
-  padding-top: 1rem;
-  text-align: center;
-  font-weight: lighter;
-  text-decoration: underline;
-}
-
 #prices table {
   padding-top: 1rem;
   width: 100%;
@@ -181,6 +181,13 @@ header h1 {
   border-bottom: 1px solid #ccc;
   text-align: center;
   padding: 1rem;
+}
+
+#prices table caption {
+  text-align: left;
+  border: none;
+  padding-top: 2rem;
+  margin-bottom: -1rem;
 }
 
 #subscriptions-table {
