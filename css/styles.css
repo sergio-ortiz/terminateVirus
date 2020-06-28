@@ -146,9 +146,7 @@ header h1 {
 /* prices */
 
 #prices {
-  overflow: auto;
   height: 100vh;
-  white-space: nowrap;
 }
 
 #prices h2 {
@@ -183,11 +181,9 @@ header h1 {
   padding: 1rem;
 }
 
-#prices table caption {
-  text-align: left;
-  border: none;
-  padding-top: 2rem;
-  margin-bottom: -1rem;
+#subscriptions-info {
+  display: none;
+  padding: 2rem 0 0 1rem;
 }
 
 #subscriptions-table {
