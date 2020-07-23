@@ -143,6 +143,12 @@ header h1 {
   background-image: url("https://source.unsplash.com/l9ig6J4yM94");
 }
 
+#about video {
+  display: block;
+  max-width: 300px;
+  margin: 2rem auto;
+}
+
 /* prices */
 
 #prices {
