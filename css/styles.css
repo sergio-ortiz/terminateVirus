@@ -15,11 +15,6 @@ body {
   font-size: 18px;
 }
 
-a {
-  color: #000;
-  text-decoration: none;
-}
-
 /* Utils */
 
 .spacer {
@@ -89,6 +84,7 @@ header h1 {
 
 .menu-item a {
   color: #ccc;
+  text-decoration: none;
 }
 
 .menu-item a:hover {
@@ -217,7 +213,6 @@ header h1 {
 }
 
 .numbers a {
-  text-decoration: underline;
   color: #fff;
 }
 
@@ -229,6 +224,7 @@ header h1 {
   padding: 0.5rem;
   font-size: 1.5rem;
   border-radius: 7px;
+  text-decoration: none;
 }
 
 /* Copyright */
