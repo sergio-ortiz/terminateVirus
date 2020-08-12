@@ -33,10 +33,6 @@ body {
 
 /* header */
 
-header {
-  min-height: 100vh;
-}
-
 header h1 {
   text-align: center;
 }
@@ -103,10 +99,6 @@ header h1 {
 
 /* About */
 
-#about {
-  min-height: 100vh;
-}
-
 #about h2 {
   padding: 1rem;
   text-align: center;
@@ -146,10 +138,6 @@ header h1 {
 }
 
 /* prices */
-
-#prices {
-  height: 100vh;
-}
 
 #prices h2 {
   padding-top: 1rem;
@@ -195,7 +183,6 @@ header h1 {
 /* Contact */
 
 #contact {
-  min-height: 100vh;
   background: #000;
   color: #fff;
 }
@@ -230,7 +217,7 @@ header h1 {
 /* Copyright */
 
 .copyright {
-  padding-top: 65vh;
+  padding-top: 30vh;
   text-align: center;
 }
 
