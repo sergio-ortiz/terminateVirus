@@ -47,6 +47,10 @@ header h1 {
   position: fixed;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .branding {
   color: #fff;
   float: left;
@@ -80,7 +84,6 @@ header h1 {
 
 .menu-item a {
   color: #ccc;
-  text-decoration: none;
 }
 
 .menu-item a:hover {
