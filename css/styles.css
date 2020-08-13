@@ -140,6 +140,12 @@ header h1 {
   margin: 2rem auto;
 }
 
+#about img {
+  display: block;
+  margin: 2rem auto;
+  width: 70%;
+}
+
 /* prices */
 
 #prices h2 {
@@ -255,6 +261,10 @@ header h1 {
   .high-touch1,
   .high-touch2 {
     float: none;
+    width: 100%;
+  }
+
+  #about img {
     width: 100%;
   }
 
