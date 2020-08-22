@@ -146,6 +146,25 @@ header h1 {
   width: 70%;
 }
 
+.high-touch3,
+.high-touch4 {
+  margin: 2rem 0 4rem;
+  padding: 5rem;
+  width: 50%;
+  height: 33vh;
+  float: left;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.high-touch3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/EPA_logo.svg");
+}
+.high-touch4 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/CDC_logo_electronic_color_name.jpg");
+}
+
 /* prices */
 
 #prices h2 {
@@ -259,9 +278,12 @@ header h1 {
   }
 
   .high-touch1,
-  .high-touch2 {
+  .high-touch2,
+  .high-touch3,
+  .high-touch4 {
     float: none;
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   #about img {
