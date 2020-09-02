@@ -1,3 +1,3 @@
-# Terminate Virus
+# TerminateVirus
 
 [terminatevirus.com](https://www.terminatevirus.com/)
