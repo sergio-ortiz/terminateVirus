@@ -98,6 +98,12 @@ header h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background
+}
+
+#certification-logo {
+  width: 150px;
+  padding-top: 1rem;
 }
 
 /* About */
