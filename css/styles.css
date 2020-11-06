@@ -94,19 +94,15 @@ header h1 {
 
 .hero {
   height: 50vh;
-  background-image: url("https://source.unsplash.com/rnr8D3FNUNY");
+  background-image: url("../corona.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  transform: scale(-1);
 }
 
 #certification-logo {
   width: 150px;
-  transform: scale(-1);
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  margin: 2rem;
 }
 
 /* About */
@@ -284,6 +280,10 @@ header h1 {
 
   .menu-item {
     float: none;
+  }
+
+  #certification-logo {
+    margin: 0.33rem;
   }
 
   .high-touch1,
