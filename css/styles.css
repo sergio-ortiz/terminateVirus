@@ -94,7 +94,7 @@ header h1 {
 
 .hero {
   height: 50vh;
-  background-image: url("../corona.jpg");
+  background-image: url("../assets/corona.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
