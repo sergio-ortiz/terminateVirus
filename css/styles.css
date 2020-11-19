@@ -153,7 +153,7 @@ header h1 {
 
 .high-touch3,
 .high-touch4 {
-  margin: 2rem 0 4rem;
+  margin-top: 2rem;
   padding: 5rem;
   width: 50%;
   height: 33vh;
@@ -173,7 +173,6 @@ header h1 {
 /* prices */
 
 #prices h2 {
-  padding-top: 1rem;
   text-align: center;
   font-weight: lighter;
   text-decoration: underline;
