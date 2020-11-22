@@ -256,6 +256,10 @@ header h1 {
 /* Media Queries */
 
 @media (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+
   .branding {
     text-align: center;
     float: none;
