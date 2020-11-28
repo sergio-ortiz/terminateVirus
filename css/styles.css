@@ -225,6 +225,10 @@ header h1 {
   font-weight: lighter;
 }
 
+#myForm {
+  display: none;
+}
+
 .numbers {
   float: left;
   color: #fff;

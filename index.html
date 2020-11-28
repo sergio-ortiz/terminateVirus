@@ -218,6 +218,26 @@
       <div class="container">
         <div class="spacer"></div>
         <h2>Contact Us</h2>
+
+        <form id="myForm" name="contact" action="POST" data-netlify="true">
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="name"
+            required
+          />
+          <input
+            id="number"
+            type="text"
+            name="number"
+            placeholder="number"
+            required
+          />
+          <textarea name="message" id="message">message</textarea>
+          <input type="submit" value="Send" />
+        </form>
+
         <div class="numbers">
           <p>Phone:</p>
           <br />
