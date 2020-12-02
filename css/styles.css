@@ -227,6 +227,26 @@ header h1 {
 
 #myForm {
   display: none;
+  margin-bottom: 4rem;
+}
+
+#myForm * {
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+}
+
+#myForm input[type="submit"] {
+  background-color: deepskyblue;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .numbers {
