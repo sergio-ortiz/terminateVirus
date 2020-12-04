@@ -242,6 +242,15 @@ header h1 {
   outline: none;
 }
 
+#myForm textarea {
+  display: block;
+  margin-bottom: -6.75rem;
+}
+
+#myForm div * {
+  box-sizing: content-box;
+}
+
 #myForm input[type="submit"] {
   background-color: deepskyblue;
   color: #fff;
