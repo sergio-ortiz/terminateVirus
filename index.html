@@ -219,7 +219,13 @@
         <div class="spacer"></div>
         <h2>Contact Us</h2>
 
-        <form id="myForm" name="contact" method="POST" data-netlify="true">
+        <form
+          id="myForm"
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+        >
           <input
             id="name"
             type="text"
@@ -235,6 +241,7 @@
             required
           />
           <textarea name="message" id="message">message</textarea>
+          <div data-netlify-recaptcha="true"></div>
           <input type="submit" value="Send" />
         </form>
 
