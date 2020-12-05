@@ -244,11 +244,10 @@ header h1 {
 
 #myForm textarea {
   display: block;
-  margin-bottom: -6.75rem;
 }
 
 #myForm div * {
-  box-sizing: content-box;
+  padding: 0;
 }
 
 #myForm input[type="submit"] {
