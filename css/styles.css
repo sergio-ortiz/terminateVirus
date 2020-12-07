@@ -242,12 +242,8 @@ header h1 {
   outline: none;
 }
 
-#myForm textarea {
-  display: block;
-}
-
-#myForm div * {
-  padding: 0;
+#myForm input[name="bot-field"] {
+  display: none;
 }
 
 #myForm input[type="submit"] {

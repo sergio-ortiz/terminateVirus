@@ -219,7 +219,14 @@
         <div class="spacer"></div>
         <h2>Contact Us</h2>
 
-        <form id="myForm" name="contact" method="POST" data-netlify="true">
+        <form
+          id="myForm"
+          name="contact"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
+          <input name="bot-field" />
           <input
             id="name"
             type="text"
