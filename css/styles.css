@@ -173,6 +173,7 @@ header h1 {
 /* prices */
 
 #prices h2 {
+  padding: 1rem;
   text-align: center;
   font-weight: lighter;
   text-decoration: underline;
