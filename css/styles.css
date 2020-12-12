@@ -246,6 +246,10 @@ header h1 {
   display: none;
 }
 
+#properties {
+  display: none;
+}
+
 #myForm input[type="submit"] {
   background-color: deepskyblue;
   color: #fff;
