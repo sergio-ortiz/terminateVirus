@@ -253,6 +253,10 @@ header h1 {
   letter-spacing: 1px;
 }
 
+.checkboxes {
+  display: none;
+}
+
 .numbers {
   float: left;
   color: #fff;
