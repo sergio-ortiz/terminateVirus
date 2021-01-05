@@ -118,27 +118,6 @@ header h1 {
   margin-top: 1rem;
 }
 
-/* High Touch Areas */
-
-.high-touch1,
-.high-touch2 {
-  margin: 2rem 0;
-  width: 49.5%;
-  height: 33vh;
-  float: left;
-  background-position: center;
-  background-size: cover;
-}
-
-.high-touch1 {
-  background-image: url("https://source.unsplash.com/yIAmkXbsRf8");
-  margin-right: 4px;
-}
-
-.high-touch2 {
-  background-image: url("https://source.unsplash.com/l9ig6J4yM94");
-}
-
 #about video {
   display: block;
   max-width: 300px;
