@@ -27,7 +27,7 @@ function updateImage(image, arr) {
   setImageSourceFromSourceArray(image, arr, currentIndex);
 }
 
-export function main(image, arr) {
+export function carousel(image, arr) {
   updateImage(image, arr);
   window.setInterval(updateImage, 2000, image, arr);
 }

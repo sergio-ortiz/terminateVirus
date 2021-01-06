@@ -1,7 +1,7 @@
 import "./toggle-menu.js";
 import "./tab-switch.js";
 import "./clear-message.js";
-import { main as carousel } from "./carousel.js";
+import { carousel } from "./carousel.js";
 
 const imageElement = document.getElementById("image-element");
 const imageSourceArray = [
