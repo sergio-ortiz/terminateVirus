@@ -1,6 +1,3 @@
-let currentIndex = -1;
-let nextIndex;
-
 function getNextIndexInArray(arr, index) {
   if (index === arr.length - 1) {
     return 0;
@@ -9,25 +6,13 @@ function getNextIndexInArray(arr, index) {
   }
 }
 
-function defineNextIndexValue(getter, arr, index) {
-  nextIndex = getter(arr, index);
+function updateImage(imageElement, imagePaths, currentIndex) {
+  const newIndex = getNextIndexInArray(imagePaths, currentIndex);
+  image.src = imagePaths[newIndex];
 }
 
-function updateIndexValue(newIndex) {
-  currentIndex = newIndex;
-}
-
-function setImageSourceFromSourceArray(image, arr, index) {
-  image.src = arr[index];
-}
-
-function updateImage(image, arr) {
-  defineNextIndexValue(getNextIndexInArray, arr, currentIndex);
-  updateIndexValue(nextIndex);
-  setImageSourceFromSourceArray(image, arr, currentIndex);
-}
-
-export function carousel(image, arr) {
-  updateImage(image, arr);
-  window.setInterval(updateImage, 2000, image, arr);
+export function carousel(imageElement, imagePaths) {
+  let currentIndex = 0;
+  updateImage(imageElement, imagePaths, currentIndex);
+  window.setInterval(updateImage, 2000, imageElement, imagePaths, currentIndex);
 }
