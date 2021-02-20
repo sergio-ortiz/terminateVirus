@@ -121,8 +121,7 @@ header h1 {
   width: 70%;
 }
 
-.high-touch3,
-.high-touch4 {
+.logo-box {
   margin-top: 2rem;
   padding: 5rem;
   width: 50%;
@@ -133,10 +132,10 @@ header h1 {
   background-repeat: no-repeat;
 }
 
-.high-touch3 {
+#epa {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/EPA_logo.svg");
 }
-.high-touch4 {
+#cdc {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/CDC_logo_electronic_color_name.jpg");
 }
 
